@@ -1,39 +1,39 @@
 # Payment Module using Strategy Pattern
 
-Este projeto implementa um módulo de pagamento em C# utilizando o padrão de projeto Strategy. O módulo de pagamento oferece suporte a diferentes métodos de pagamento, como cartão de crédito, cartão de débito, PIX e boleto, cada um implementado como uma estratégia separada.
+This project implements a payment module in C# using the Strategy design pattern. The payment module supports different payment methods such as credit card, debit card, PIX, and boleto, each implemented as a separate strategy.
 
-## Visão Geral
+## Overview
 
-O padrão Strategy é um padrão de design comportamental que permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis. No contexto deste projeto, o padrão Strategy permite que diferentes métodos de pagamento sejam implementados como estratégias separadas, com uma interface comum, tornando-os intercambiáveis no módulo de pagamento.
+The Strategy pattern is a behavioral design pattern that allows defining a family of algorithms, encapsulating each one, and making them interchangeable. In the context of this project, the Strategy pattern enables different payment methods to be implemented as separate strategies with a common interface, making them interchangeable in the payment module.
 
-## Funcionamento do Programa
+## Program Operation
 
-O programa permite que o usuário selecione o método de pagamento desejado a partir de um menu. Uma vez selecionado, o serviço de pagamento correspondente é identificado e a função para processar o pagamento é chamada.
+The program allows the user to select the desired payment method from a menu. Once selected, the corresponding payment service is identified, and the function to process the payment is called.
 
-## Executando o Projeto
+## Running the Project
 
-Para executar o projeto, siga estas etapas:
+To run the project, follow these steps:
 
-1. Clone o repositório:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/marlon-cesar/StrategyPattern
     ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
     ```bash
     cd StrategyPattern
     ```
 
-3. Execute o programa:
+3. Run the program:
 
     ```bash
     dotnet run
     ```
 
-Isso irá compilar e executar o programa, exibindo o menu para seleção do método de pagamento e processando o pagamento de acordo com a escolha do usuário.
+This will compile and run the program, displaying the menu to select the payment method and processing the payment according to the user's choice.
 
-## Contribuindo
+## Contributing
 
-Sinta-se à vontade para contribuir com melhorias para este exemplo. Basta abrir uma issue ou enviar uma pull request.
+Feel free to contribute with improvements to this example. Just open an issue or submit a pull request.
